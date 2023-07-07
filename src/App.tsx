@@ -13,7 +13,7 @@ function App({ value, onIncrement, onDecrement }: Props) {
     setTodoValue(e.target.value);
   }
   const addTodo = (e: React.FormEvent<HTMLFormElement>) => {
-    
+    //
   }
   return (
     <div className="App">

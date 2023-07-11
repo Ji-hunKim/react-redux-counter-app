@@ -27,7 +27,7 @@ const render = () =>
         <App
           value={store.getState()}
           onIncrement={() => store.dispatch({ type: "INCREMENT" })}
-          onDecrement={() => store.dispatch({ type: "DECREMENT" })}
+          onDecrement={() => store.dispatch({ type: "DECREMENT" })} //
         />
       </Provider>
     </React.StrictMode>
